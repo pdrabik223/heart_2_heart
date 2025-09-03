@@ -9,14 +9,14 @@
 ### 2. Install Dependencies
 Open a terminal in the project directory and run:
 
-```
+``` bash
 npm install
 ```
 
 ### 3. Start the Server
 Run:
 
-```
+``` bash
 npm start
 ```
 

@@ -44,7 +44,7 @@
 width: 50%;
 }
 /* Footer styles */
-.main-footer {
+.mainFooter {
   width: 100%;
   text-align: center;
   font-size: 1.1em;
@@ -55,11 +55,11 @@ width: 50%;
   border-top: 2px solid #e2557b33;
   letter-spacing: 0.5px;
 }
-.main-footer div {
+.mainFooter div {
   margin: 4px 0;
 }
 /* Big centered message on top */
-.main-message {
+.mainMessage {
   width: 100%;
   text-align: center;
   font-size: 2.2em;
@@ -70,7 +70,7 @@ width: 50%;
   letter-spacing: 1px;
   text-shadow: 0 2px 12px #e2557b22, 0 0 2px #fff;
 }
-.grid-container {
+.gridContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     gap: 16px;
@@ -160,7 +160,7 @@ body {
     font-size:x-large;
 }
 
-.popup-content {
+.popupContent {
     background: #fff;
     padding: 32px 24px;
     border-radius: 16px;
