@@ -14,7 +14,7 @@
     100% { transform: scale(1) rotate(0deg); }
 }
 /* Info icon styles */
-.info-icon {
+.infoIcon {
   position: fixed;
   top: 24px;
   right: 32px;
@@ -34,7 +34,7 @@
   border: 2px solid #e2557b44;
   transition: background 0.2s, color 0.2s;
 }
-.info-icon:hover {
+.infoIcon:hover {
   background: #e2557b;
   color: #fff;
 }
