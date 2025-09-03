@@ -28,3 +28,6 @@ https://docs.google.com/spreadsheets/d/1Ta2YA8YSqkW9bj6ox0GOM69QT6DUwjauE2nb7Ri7
 
 # Web page
 https://pdrabik223.github.io/heart_2_heart/
+
+
+https://www.zbiorkasercedlaserca2025.pl/?id=43
