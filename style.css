@@ -135,6 +135,12 @@ body {
   }
 }
 
+.heart.not-bout {
+  filter: grayscale(1) brightness(0.7);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
 .heart {
   width: 50px;
   height: 54px;

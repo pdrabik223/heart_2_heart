@@ -1,54 +1,210 @@
 {
-    "1": "Pomogłem, bo każdy zasługuje na drugą szansę.",
-    "2": "Wsparłam, bo chciałam komuś poprawić humor.",
-    "3": "Dałem, bo sam kiedyś dostałem pomoc.",
-    "4": "Pomogłam, bo wierzę, że dobro wraca.",
-    "5": "Dorzu­ciłem się, żeby dzieci mogły się uczyć.",
-    "6": "Pomogłam, bo nie umiem przejść obok cierpienia obojętnie.",
-    "7": "Wsparłem, bo wiem, że nawet mały gest robi różnicę.",
-    "8": "Pomogłam, bo lubię pomagać innym ludziom.",
-    "9": "Dorzu­ciłem się, żeby dołożyć swoją cegiełkę.",
-    "10": "Pomogłam, żeby dać trochę nadziei.",
-    "11": "Pomogłem, bo każda złotówka się liczy.",
-    "12": "Pomogłam, bo to po prostu słuszne.",
-    "13": "Dałem, żeby moje dzieci widziały, że warto pomagać.",
-    "14": "Pomogłam, bo tak mi podpowiada serce.",
-    "15": "Dorzu­ciłem się, żeby ktoś miał co jeść.",
-    "16": "Pomogłam, bo wiem, że inni liczą na wsparcie.",
-    "17": "Pomogłem, żeby świat był odrobinę lepszy.",
-    "18": "Pomogłam, bo razem możemy zrobić więcej.",
-    "19": "Pomogłem, bo nikt nie powinien być sam w biedzie.",
-    "20": "Wpłaciłam, żeby pomóc w badaniach nad chorobami.",
-    "21": "Pomogłem, bo chciałem zrobić coś dobrego od serca.",
-    "22": "Pomogłam, bo fajnie jest być częścią wspólnoty.",
-    "23": "Dorzu­ciłem się, bo mam więcej, niż potrzebuję.",
-    "24": "Pomogłam, bo daje mi to satysfakcję.",
-    "25": "Wsparłem, żeby dzieci miały szansę na edukację.",
-    "26": "Pomogłam, bo chcę szerzyć dobro.",
-    "27": "Pomogłem, żeby komuś ulżyć w cierpieniu.",
-    "28": "Pomogłam, bo każdy czasem potrzebuje pomocy.",
-    "29": "Dałem, bo wiem, że to ma sens.",
-    "30": "Pomogłam, bo lubię się dzielić tym, co mam.",
-    "31": "Wsparłem, żeby innym żyło się lepiej.",
-    "32": "Pomogłam, bo nie chcę być obojętna.",
-    "33": "Dorzu­ciłem się, żeby świat był odrobinę lepszy.",
-    "34": "Pomogłam, bo wiem, jak ważne jest wsparcie w trudnych chwilach.",
-    "35": "Pomogłem, bo wierzę, że dobro wraca.",
-    "36": "Pomogłam, żeby ktoś mógł poczuć się bezpieczniej.",
-    "37": "Pomogłem, bo nawet drobny gest się liczy.",
-    "38": "Pomogłam, bo razem łatwiej osiągać cele.",
-    "39": "Dorzu­ciłem się, żeby wesprzeć lokalną inicjatywę.",
-    "40": "Pomogłam, bo chcę zostawić coś dobrego po sobie.",
-    "41": "Wsparłem, bo inaczej nie czułbym się dobrze.",
-    "42": "Pomogłam, żeby dodać komuś otuchy.",
-    "43": "Pomogłem, bo każdy zasługuje na pomocną dłoń.",
-    "44": "Pomogłam, żeby szerzyć empatię i dobro.",
-    "45": "Wsparłem, bo daje to ludziom nadzieję.",
-    "46": "Pomogłam, bo chcę, żeby ludzie wierzyli w dobro.",
-    "47": "Dorzu­ciłem się, bo tak po prostu czułem.",
-    "48": "Pomogłam, bo fajnie jest być częścią czegoś większego.",
-    "49": "Pomogłem, bo na świecie trzeba więcej życzliwości.",
-    "50": "Pomogłam, żeby dzieci miały lepszą przyszłość.",
-    "51": "Wsparłem, bo każdy może zrobić coś dobrego, choćby małego.",
-    "52": "Pomogłam, bo wierzę, że dobro naprawdę działa."
+    "1": {
+        "msg": "Pomogłem, bo każdy zasługuje na drugą szansę.",
+        "is_bout": false
+    },
+    "2": {
+        "msg": "Wsparłam, bo chciałam komuś poprawić humor.",
+        "is_bout": false
+    },
+    "3": {
+        "msg": "Dałem, bo sam kiedyś dostałem pomoc.",
+        "is_bout": false
+    },
+    "4": {
+        "msg": "Pomogłam, bo wierzę, że dobro wraca.",
+        "is_bout": false
+    },
+    "5": {
+        "msg": "Dorzu­ciłem się, żeby dzieci mogły się uczyć.",
+        "is_bout": false
+    },
+    "6": {
+        "msg": "Pomogłam, bo nie umiem przejść obok cierpienia obojętnie.",
+        "is_bout": false
+    },
+    "7": {
+        "msg": "Wsparłem, bo wiem, że nawet mały gest robi różnicę.",
+        "is_bout": false
+    },
+    "8": {
+        "msg": "Pomogłam, bo lubię pomagać innym ludziom.",
+        "is_bout": false
+    },
+    "9": {
+        "msg": "Dorzu­ciłem się, żeby dołożyć swoją cegiełkę.",
+        "is_bout": false
+    },
+    "10": {
+        "msg": "Pomogłam, żeby dać trochę nadziei.",
+        "is_bout": false
+    },
+    "11": {
+        "msg": "Pomogłem, bo każda złotówka się liczy.",
+        "is_bout": false
+    },
+    "12": {
+        "msg": "Pomogłam, bo to po prostu słuszne.",
+        "is_bout": false
+    },
+    "13": {
+        "msg": "Dałem, żeby moje dzieci widziały, że warto pomagać.",
+        "is_bout": false
+    },
+    "14": {
+        "msg": "Pomogłam, bo tak mi podpowiada serce.",
+        "is_bout": false
+    },
+    "15": {
+        "msg": "Dorzu­ciłem się, żeby ktoś miał co jeść.",
+        "is_bout": false
+    },
+    "16": {
+        "msg": "Pomogłam, bo wiem, że inni liczą na wsparcie.",
+        "is_bout": false
+    },
+    "17": {
+        "msg": "Pomogłem, żeby świat był odrobinę lepszy.",
+        "is_bout": false
+    },
+    "18": {
+        "msg": "Pomogłam, bo razem możemy zrobić więcej.",
+        "is_bout": false
+    },
+    "19": {
+        "msg": "Pomogłem, bo nikt nie powinien być sam w biedzie.",
+        "is_bout": false
+    },
+    "20": {
+        "msg": "Wpłaciłam, żeby pomóc w badaniach nad chorobami.",
+        "is_bout": false
+    },
+    "21": {
+        "msg": "Pomogłem, bo chciałem zrobić coś dobrego od serca.",
+        "is_bout": false
+    },
+    "22": {
+        "msg": "Pomogłam, bo fajnie jest być częścią wspólnoty.",
+        "is_bout": false
+    },
+    "23": {
+        "msg": "Dorzu­ciłem się, bo mam więcej, niż potrzebuję.",
+        "is_bout": false
+    },
+    "24": {
+        "msg": "Pomogłam, bo daje mi to satysfakcję.",
+        "is_bout": false
+    },
+    "25": {
+        "msg": "Wsparłem, żeby dzieci miały szansę na edukację.",
+        "is_bout": false
+    },
+    "26": {
+        "msg": "Pomogłam, bo chcę szerzyć dobro.",
+        "is_bout": false
+    },
+    "27": {
+        "msg": "Pomogłem, żeby komuś ulżyć w cierpieniu.",
+        "is_bout": false
+    },
+    "28": {
+        "msg": "Pomogłam, bo każdy czasem potrzebuje pomocy.",
+        "is_bout": false
+    },
+    "29": {
+        "msg": "Dałem, bo wiem, że to ma sens.",
+        "is_bout": false
+    },
+    "30": {
+        "msg": "Pomogłam, bo lubię się dzielić tym, co mam.",
+        "is_bout": false
+    },
+    "31": {
+        "msg": "Wsparłem, żeby innym żyło się lepiej.",
+        "is_bout": false
+    },
+    "32": {
+        "msg": "Pomogłam, bo nie chcę być obojętna.",
+        "is_bout": false
+    },
+    "33": {
+        "msg": "Dorzu­ciłem się, żeby świat był odrobinę lepszy.",
+        "is_bout": false
+    },
+    "34": {
+        "msg": "Pomogłam, bo wiem, jak ważne jest wsparcie w trudnych chwilach.",
+        "is_bout": false
+    },
+    "35": {
+        "msg": "Pomogłem, bo wierzę, że dobro wraca.",
+        "is_bout": false
+    },
+    "36": {
+        "msg": "Pomogłam, żeby ktoś mógł poczuć się bezpieczniej.",
+        "is_bout": false
+    },
+    "37": {
+        "msg": "Pomogłem, bo nawet drobny gest się liczy.",
+        "is_bout": false
+    },
+    "38": {
+        "msg": "Pomogłam, bo razem łatwiej osiągać cele.",
+        "is_bout": false
+    },
+    "39": {
+        "msg": "Dorzu­ciłem się, żeby wesprzeć lokalną inicjatywę.",
+        "is_bout": false
+    },
+    "40": {
+        "msg": "Pomogłam, bo chcę zostawić coś dobrego po sobie.",
+        "is_bout": false
+    },
+    "41": {
+        "msg": "Wsparłem, bo inaczej nie czułbym się dobrze.",
+        "is_bout": false
+    },
+    "42": {
+        "msg": "Pomogłam, żeby dodać komuś otuchy.",
+        "is_bout": false
+    },
+    "43": {
+        "msg": "Pomogłem, bo każdy zasługuje na pomocną dłoń.",
+        "is_bout": false
+    },
+    "44": {
+        "msg": "Pomogłam, żeby szerzyć empatię i dobro.",
+        "is_bout": false
+    },
+    "45": {
+        "msg": "Wsparłem, bo daje to ludziom nadzieję.",
+        "is_bout": false
+    },
+    "46": {
+        "msg": "Pomogłam, bo chcę, żeby ludzie wierzyli w dobro.",
+        "is_bout": false
+    },
+    "47": {
+        "msg": "Dorzu­ciłem się, bo tak po prostu czułem.",
+        "is_bout": false
+    },
+    "48": {
+        "msg": "Pomogłam, bo fajnie jest być częścią czegoś większego.",
+        "is_bout": false
+    },
+    "49": {
+        "msg": "Pomogłem, bo na świecie trzeba więcej życzliwości.",
+        "is_bout": false
+    },
+    "50": {
+        "msg": "Pomogłam, żeby dzieci miały lepszą przyszłość.",
+        "is_bout": false
+    },
+    "51": {
+        "msg": "Wsparłem, bo każdy może zrobić coś dobrego, choćby małego.",
+        "is_bout": false
+    },
+    "52": {
+        "msg": "Pomogłam, bo wierzę, że dobro naprawdę działa.",
+        "is_bout": false
+    }
 }

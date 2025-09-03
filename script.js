@@ -30,19 +30,33 @@ function readTextFile(file, callback) {
 }
 
 
-var loadedMessages = []
+var loadedMessages = [];
 
 readTextFile("./charity_reasons_pl.json", function (text) {
-
     var data = JSON.parse(text);
-
     for (const [key, value] of Object.entries(data)) {
-        loadedMessages.push(value)
+        loadedMessages.push({ id: key, ...value });
     }
-
-    populatePage()
+    populatePage();
 });
 
+function populatePage() {
+    const highlightId = getUrlParam('id');
+    grid.innerHTML = loadedMessages.map((item, i) => {
+        const isHighlighted = highlightId === item.id;
+        const notBout = !item.is_bout && !isHighlighted;
+        return `<div class="heart${notBout ? ' not-bout' : ''}${isHighlighted ? ' highlighted' : ''}" data-msg="${item.is_bout || isHighlighted ? item.msg : 'Nikt jeszcze nie wykupił cegiełki'}"><span class="heart-id">${i + 1}</span></div>`;
+    }).join('');
+
+    Array.from(document.getElementsByClassName('heart')).forEach(heart => {
+        heart.addEventListener('click', function (e) {
+            popupMessage.textContent = this.getAttribute('data-msg');
+            popup.style.display = 'flex';
+        });
+    });
+
+    highlightHeartById();
+}
 
 const grid = document.getElementById('heartGrid');
 const popup = document.getElementById('popup');
@@ -61,27 +75,27 @@ function highlightHeartById() {
     if (!idParam) return;
     const idNum = parseInt(idParam, 10);
     if (isNaN(idNum) || idNum < 1 || idNum > loadedMessages.length) return;
-    
+
     const hearts = document.getElementsByClassName('heart-id');
     if (hearts[idNum - 1]) {
         hearts[idNum - 1].parentElement.classList.add('highlighted');
         hearts[idNum - 1].scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 }
-function populatePage() {
-    grid.innerHTML = Array.from({ length: loadedMessages.length }, (_, i) =>
-        `<div class="heart" data-msg="${loadedMessages[i % loadedMessages.length]}"><span class="heart-id">${i + 1}</span></div>`
-    ).join('');
+// function populatePage() {
+//     grid.innerHTML = Array.from({ length: loadedMessages.length }, (_, i) =>
+//         `<div class="heart" data-msg="${loadedMessages[i % loadedMessages.length]}"><span class="heart-id">${i + 1}</span></div>`
+//     ).join('');
 
-    Array.from(document.getElementsByClassName('heart')).forEach(heart => {
-        heart.addEventListener('click', function (e) {
-            popupMessage.textContent = this.getAttribute('data-msg');
-            popup.style.display = 'flex';
-        });
-    });
+//     Array.from(document.getElementsByClassName('heart')).forEach(heart => {
+//         heart.addEventListener('click', function (e) {
+//             popupMessage.textContent = this.getAttribute('data-msg');
+//             popup.style.display = 'flex';
+//         });
+//     });
 
-    highlightHeartById();
-}
+//     highlightHeartById();
+// }
 
 closePopup.onclick = function () {
     popup.style.display = 'none';
