@@ -100,6 +100,20 @@
   text-shadow: 0 2px 12px #e2557b22, 0 0 2px #fff;
 }
 
+
+.mainMessageDescription {
+  width: 80%;
+  padding-left: 10%;
+
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #e2557b;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 12px #e2557b22, 0 0 2px #fff;
+}
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
