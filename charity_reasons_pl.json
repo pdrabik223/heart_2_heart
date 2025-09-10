@@ -96,7 +96,7 @@
         "is_bout": false
     },
     "25": {
-        "msg": "Wsparłem, żeby dzieci miały szansę na edukację.",
+        "msg": "Tomaszu, dziękuję za wsparcie.",
         "is_bout": false
     },
     "26": {
@@ -156,8 +156,8 @@
         "is_bout": false
     },
     "40": {
-        "msg": "Pomogłam, bo chcę zostawić coś dobrego po sobie.",
-        "is_bout": false
+        "msg": "Karolino, dziękuję za zaangarzowanie.",
+        "is_bout": true
     },
     "41": {
         "msg": "Wsparłem, bo inaczej nie czułbym się dobrze.",
