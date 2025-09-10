@@ -97,7 +97,7 @@
     },
     "25": {
         "msg": "Tomaszu, dziękuję za wsparcie.",
-        "is_bout": false
+        "is_bout": true
     },
     "26": {
         "msg": "Pomogłam, bo chcę szerzyć dobro.",
